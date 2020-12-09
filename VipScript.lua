@@ -8,7 +8,7 @@ print("🛠 Bu Script Bedava Deil Paralidir 🛠")
 PW = gg.prompt({'🔒 ŞİFRE GİR: '},{[1]=''},{[1]='text'})
 if not PW then return
 end 
-if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOŞ! 😂") os.exit() end
+if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOS MAL! 😂") os.exit() end
 if PW[1] =="1208"then 
 	gg.toast('PASSWORD CORRECT ✅')
 else 
